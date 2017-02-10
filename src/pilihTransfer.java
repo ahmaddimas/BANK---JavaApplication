@@ -89,7 +89,8 @@ public class pilihTransfer extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 500, 280);
 
-        setBounds(0, 0, 515, 319);
+        setSize(new java.awt.Dimension(515, 319));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed

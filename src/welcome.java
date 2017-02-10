@@ -239,7 +239,8 @@ public class welcome extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 340, 430);
 
-        setBounds(0, 0, 358, 468);
+        setSize(new java.awt.Dimension(358, 468));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void tvPinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tvPinActionPerformed

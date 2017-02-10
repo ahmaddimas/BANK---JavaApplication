@@ -63,7 +63,8 @@ public class Main extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 400, 300);
 
-        setBounds(0, 0, 416, 339);
+        setSize(new java.awt.Dimension(416, 339));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

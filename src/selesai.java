@@ -61,7 +61,8 @@ public class selesai extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 460, 230);
 
-        setBounds(0, 0, 480, 263);
+        setSize(new java.awt.Dimension(480, 263));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**

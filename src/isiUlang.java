@@ -235,7 +235,8 @@ public class isiUlang extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 330, 470);
 
-        setBounds(0, 0, 346, 505);
+        setSize(new java.awt.Dimension(346, 505));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void tvPinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tvPinActionPerformed

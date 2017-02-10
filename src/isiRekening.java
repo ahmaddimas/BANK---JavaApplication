@@ -78,7 +78,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         kodeBank.setBackground(new java.awt.Color(153, 255, 204));
         kodeBank.setText("Kode BANK -->");
-        kodeBank.setBorder(null);
         kodeBank.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kodeBankActionPerformed(evt);
@@ -89,7 +88,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setText("0");
-        jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -100,7 +98,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton12.setBackground(new java.awt.Color(255, 153, 153));
         jButton12.setText("C");
-        jButton12.setBorder(null);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
@@ -111,7 +108,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton13.setBackground(new java.awt.Color(255, 255, 255));
         jButton13.setText("1");
-        jButton13.setBorder(null);
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton13ActionPerformed(evt);
@@ -122,7 +118,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton14.setBackground(new java.awt.Color(255, 255, 255));
         jButton14.setText("2");
-        jButton14.setBorder(null);
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
@@ -133,7 +128,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton15.setBackground(new java.awt.Color(255, 255, 255));
         jButton15.setText("3");
-        jButton15.setBorder(null);
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton15ActionPerformed(evt);
@@ -144,7 +138,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton16.setBackground(new java.awt.Color(255, 255, 255));
         jButton16.setText("4");
-        jButton16.setBorder(null);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton16ActionPerformed(evt);
@@ -155,7 +148,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton17.setBackground(new java.awt.Color(255, 255, 255));
         jButton17.setText("5");
-        jButton17.setBorder(null);
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton17ActionPerformed(evt);
@@ -166,7 +158,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton18.setBackground(new java.awt.Color(255, 255, 255));
         jButton18.setText("6");
-        jButton18.setBorder(null);
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
@@ -177,7 +168,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton19.setBackground(new java.awt.Color(255, 255, 255));
         jButton19.setText("9");
-        jButton19.setBorder(null);
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton19ActionPerformed(evt);
@@ -188,7 +178,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton20.setBackground(new java.awt.Color(255, 255, 255));
         jButton20.setText("7");
-        jButton20.setBorder(null);
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
@@ -199,7 +188,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton22.setBackground(new java.awt.Color(255, 255, 255));
         jButton22.setText("8");
-        jButton22.setBorder(null);
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton22ActionPerformed(evt);
@@ -216,7 +204,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(153, 255, 153));
         jButton3.setText("OK -->");
-        jButton3.setBorder(null);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -227,7 +214,6 @@ public class isiRekening extends javax.swing.JFrame {
 
         jButton4.setBackground(new java.awt.Color(255, 204, 102));
         jButton4.setText("CANCEL -->");
-        jButton4.setBorder(null);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -251,7 +237,8 @@ public class isiRekening extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 530, 370);
 
-        setBounds(0, 0, 546, 410);
+        setSize(new java.awt.Dimension(546, 410));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void tvPinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tvPinActionPerformed
@@ -388,6 +375,9 @@ public class isiRekening extends javax.swing.JFrame {
                     this.setVisible(false);
                 } else {
                     alert.showMessageDialog(null, "Kode BANK Tidak Diketahui!");
+                    pin = "";
+                    kode = "";
+                    tvPin.setText(pin);
                 }
             } 
         }

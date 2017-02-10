@@ -157,7 +157,8 @@ public class verifikasi extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 500, 370);
 
-        setBounds(0, 0, 516, 410);
+        setSize(new java.awt.Dimension(516, 410));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed

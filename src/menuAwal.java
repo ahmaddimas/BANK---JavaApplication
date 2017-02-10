@@ -136,7 +136,8 @@ public class menuAwal extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 470, 300);
 
-        setBounds(0, 0, 489, 336);
+        setSize(new java.awt.Dimension(489, 336));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

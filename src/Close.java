@@ -38,20 +38,33 @@ public class Close extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        jPanel1.setBackground(new java.awt.Color(51, 0, 153));
+        jPanel1.setLayout(null);
 
-        pack();
+        jLabel3.setFont(new java.awt.Font("Consolas", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Terima Kasih");
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(150, 60, 140, 40);
+
+        jLabel4.setFont(new java.awt.Font("Consolas", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4.setText("Telah Menggunakan Layanan Kami :)");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(50, 120, 360, 40);
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 460, 230);
+
+        setSize(new java.awt.Dimension(473, 269));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -90,5 +103,8 @@ public class Close extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

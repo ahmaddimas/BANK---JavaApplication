@@ -131,7 +131,7 @@ public class menuLain extends javax.swing.JFrame {
 
         jButton9.setBackground(new java.awt.Color(255, 255, 255));
         jButton9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jButton9.setText("Ubah PIN -->");
+        jButton9.setText("Petunjuk -->");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
@@ -182,7 +182,8 @@ public class menuLain extends javax.swing.JFrame {
         getContentPane().add(jPanel2);
         jPanel2.setBounds(0, 0, 470, 300);
 
-        setBounds(0, 0, 489, 341);
+        setSize(new java.awt.Dimension(489, 341));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
